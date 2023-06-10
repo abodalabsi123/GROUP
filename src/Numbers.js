@@ -26,7 +26,7 @@ import { faPlus } from '@fortawesome/free-solid-svg-icons';
       return (
         <div class="block bg-black   ">
           <h1 className='text-white text-xl font-bold underline flex justify-center p-4 '>LET'S NUMBERS TALK</h1>
-          <div class="container   grid grid-cols-2  gap-5 md:grid-cols-4 py-8 md:mr-24   ">
+          <div class="container   grid grid-cols-2  gap-5 md:grid-cols-4 py-8   ">
 
           <div >
             <NumberAnimation from={0} to={900} duration={3000}
@@ -35,7 +35,7 @@ import { faPlus } from '@fortawesome/free-solid-svg-icons';
             <h2 className='text-white mr-10'>People</h2>
           </div>
           <div>
-            <NumberAnimation from={0} to={500} duration={3000} />
+            <NumberAnimation from={0} to={30} duration={3000} />
             <h2 className='text-white mr-10 '>Countries</h2>
           </div>
           <div>

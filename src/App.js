@@ -12,10 +12,12 @@ import Footer from "./Footer";
 import SimpleSlider from "./SimpleSlider";
 import WhatsappIcon from "./WhatsappIcon";
 import Numbers from "./Numbers";
+import "./app.css"
 
 
 
 function App() {   
+  
   return (
     <div className="App">
             

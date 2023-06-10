@@ -64,23 +64,24 @@ const Section3 = () => {
       },
     ],
     arrows: false, // Remove arrow buttons
+    
    
   };
 
   return (
-    <div className="py-2 ">
+    <div className="py-3  ">
       <h2 className="md:text-3xl underline font-bold mb-4 p-1 flex justify-center sm:text-xl">
         GLOBAL EXPORT AND IMPORT 
       </h2>
       <Slider {...settings} >
         <div >
           <img className="w-200 h-30 " src={a} alt="Photo 1" />
-          <h1 className="text-xl font-bold flex justify-center "> تصدير جميع انواع الحديد </h1> 
+          <h1 className="text-xl font-bold flex justify-center ">  جميع انواع الحديد </h1> 
 
         </div>
         <div >
           <img className="w-200 h-30 " src={aa} alt="Photo 1" />
-          <h1 className="text-xl font-bold flex justify-center "> افضل انواع الزهور الهولندية</h1> 
+          <h1 className="text-xl font-bold flex justify-center "> الزهور الهولندية</h1> 
 
         </div>
        
@@ -91,12 +92,12 @@ const Section3 = () => {
         </div>
         <div>
           <img className="w-200 h-30" src={cc} alt="Photo 3" />
-          <h1 className="text-xl font-bold flex justify-center ">تصدير جميع انواع الملابس</h1> 
+          <h1 className="text-xl font-bold flex justify-center "> جميع انواع الملابس</h1> 
 
         </div>
         <div>
           <img className="w-200 h-30" src={d} alt="Photo 1" />
-          <h1 className="text-xl font-bold flex justify-center ">افضل انواع الاجهزة الالكترونية</h1> 
+          <h1 className="text-xl font-bold flex justify-center ">جميع الاجهزة الالكترونية</h1> 
 
         </div>
         <div>
@@ -124,11 +125,16 @@ const Section3 = () => {
         </div>
         <div>
           <img className="w-200 h-30" src={bb} alt="Photo 2" />
-          <h1 className="text-xl font-bold flex justify-center ">اجود انواع الزيوت الاندونيسي</h1> 
+          <h1 className="text-xl font-bold flex justify-center "> الزيوت الاندونيسي</h1> 
 
 
         </div>
-        <div>
+     
+      
+       
+      </Slider>
+      <Slider {...settings} >
+      <div>
           <img className="w-200 h-30" src={q} alt="Photo 2" />
           <h1 className="text-xl font-bold flex justify-center ">تصدير الادوية</h1> 
 
@@ -140,7 +146,7 @@ const Section3 = () => {
         </div>
         <div>
           <img className="w-200 h-30" src={z} alt="Photo 2" />
-          <h1 className="text-xl font-bold flex justify-center ">تصدير منتجات رقائق الالمنيوم</h1> 
+          <h1 className="text-xl font-bold flex justify-center "> منتجات رقائق الالمنيوم</h1> 
 
         </div>
   
@@ -162,8 +168,6 @@ const Section3 = () => {
           <h1 className="text-xl font-bold flex justify-center ">تصديرالمكائن الصناعية </h1> 
 
         </div>
-      
-       
       </Slider>
     </div>
   );

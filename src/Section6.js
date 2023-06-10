@@ -60,7 +60,7 @@ const Section3 = () => {
       <Slider {...settings} >
         <div  className=''>
           <img className="w-200 h-30  " src={a} alt="Photo 1" />
-          <h1 className="text-xl  font-bold flex justify-center ">SAKRA WORLD  Hospital</h1> 
+          <h1 className="text-xl  font-bold flex justify-center ">SAKRA  Hospital</h1> 
 
         </div>
         <div>
@@ -79,7 +79,7 @@ const Section3 = () => {
         </div>
         <div>
           <img className="w-200 h-30" src={d} alt="Photo 1" />
-          <h1 className="text-xl font-bold flex justify-center ">SAKRA WORLD  Hospital</h1> 
+          <h1 className="text-xl font-bold flex justify-center ">SAKRA Hospital</h1> 
         </div>
         
         <div>

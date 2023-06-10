@@ -13,7 +13,7 @@ const Hero = () => {
       const currentIndex = images.indexOf(currentImage);
       const nextIndex = (currentIndex + 1) % images.length;
       setCurrentImage(images[nextIndex]);
-    }, 3000);
+    }, 6000);
 
     return () => clearInterval(interval);
   }, [currentImage, images]);
@@ -21,7 +21,7 @@ const Hero = () => {
   return (
     <header className="relative ">
       <h1 className="text-4xl font-bold  text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
-        WElCOME TO AlHYA COMMARIAL GROUP 
+        WElCOME TO AlHAYA COMMERCIAL GROUP  
       </h1>
       
       <img class="object-cover h-full w-full" src={currentImage} alt="Hero Image" />

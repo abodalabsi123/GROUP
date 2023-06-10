@@ -1,15 +1,15 @@
 import React from 'react'
-import alhya3 from './image/alhya3.png';
+import last from './image/last.png';
 function Header() {
   return (
-    <nav className=  "  bg-black text-white p-3 flex justify-between" >
-    <ul className="flex justify-start">
-      <li className="mx-4"><a href="/" className="text-white hover:text-gray-400">الرئيسية</a></li>
-      <li className="mx-4"><a href="/about" className="text-white hover:text-gray-400">من نحن</a></li>
-      <li className="mx-4"><a href="/services" className="text-white hover:text-gray-400">الخدمات</a></li>
-      <li className="mx-4"><a href="/contact" className="text-white hover:text-gray-400">تواصل معنا</a></li>
+    <nav className=  "  bg-black text-white  flex justify-evenly p-5 md:justify-between" >
+    <ul className="flex m-1 justify-between gap-3 ">
+      <li className=" "><a href="/" className="text-white hover:text-gray-400">الرئيسية</a></li>
+      {/* <li className=" "><a href="/about" className="text-white hover:text-gray-400">من نحن</a></li> */}
+      <li className=""><a href="/services" className="text-white hover:text-gray-400">الخدمات</a></li>
+      <li className="ml-2"><a href="/contact" className="text-white hover:text-gray-400">تواصل</a></li>
     </ul>
-      <img src={alhya3} alt="" class=" h-6 ml-3  w-20 " />
+      <img src={last} alt="" class=" h-14   w-200 " />
    
      
   
