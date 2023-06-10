@@ -9,7 +9,6 @@ import Hero from "./Hero";
 
 import Header from "./Header";
 import Footer from "./Footer";
-import SimpleSlider from "./SimpleSlider";
 import WhatsappIcon from "./WhatsappIcon";
 import Numbers from "./Numbers";
 import "./app.css"
@@ -32,7 +31,7 @@ function App() {
     <Section6/>
     <Section7/>
     <Numbers/>
-    {/* <SimpleSlider/> */}
+
    
 
     <Footer/>

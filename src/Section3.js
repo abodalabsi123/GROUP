@@ -6,7 +6,7 @@ import photo1 from './image/photo1.jpeg';
 import photo2 from './image/photo2.jpeg';
 import photo3 from './image/photo3.jpeg';
 import photo4 from './image/photo4.jpeg';
-import photo5 from './image/photo5.jpeg';
+
 
 const Section3 = () => {
   const settings = {
